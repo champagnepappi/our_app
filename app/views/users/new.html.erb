@@ -13,7 +13,9 @@
 <%=  f.password_field :password, class: "form-control" %>
 <%=  f.label :password_confirmation %>
 <%=  f.password_field :password_confirmation, class:"form-control" %>
-<%=  f.submit "signup", class: "btn btn-primary" %>
+<%=  f.submit "signup", class: "btn btn-primary" %> <br><br>
+
+Already have an account? <%= link_to "Login", '#' %>
 <% end %>
 </div>
 </div>
