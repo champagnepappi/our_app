@@ -8,8 +8,10 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
 gem 'will_paginate'
-gem 'bootstrap-will_paginate'
+#gem 'bootstrap-will_paginate'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
+gem 'foundation-rails'
+
 
 # Use sqlite3 as the database for Active Record
 gem 'pry'
@@ -24,7 +26,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
