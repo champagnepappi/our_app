@@ -10,4 +10,5 @@ class ApplicationLayoutTest < ActionDispatch::IntegrationTest
      assert_select "a[href=?]", static_pages_help_path
      assert_select "a[href=?]", static_pages_contact_path
   end
+  
 end
